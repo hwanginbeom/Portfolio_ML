@@ -8,20 +8,20 @@
 
 한국데이터 거래소에서 주최한 대회로 KDX의 다양한 데이터와 외부데이터를 활용해 한국의 소비 트렌드를 분석해 인사이트를 도출하는 경진대회였습니다. 이 경진대회에서 좋은 성과를 거둬 최우수상을 수상하였습니다.
 
-
+<br>
 
 
 
 - Summary
 
-
+<br>
 
 
   (1). 기간
 
 ​	-2020.09.23 - 2020.10.25
 
-
+<br>
 
 
 
@@ -33,7 +33,7 @@
 
 ​	-온라인 소비 데이터(Mcorporation)
 
-
+<br>
 
 
 
@@ -43,7 +43,7 @@
 
 ​	-python의 pandas, numpy 라이브러리 통한 데이터 가공
 
-
+<br>
 
 
 
@@ -51,7 +51,7 @@
 
 ​	-Prophet 모듈을 이용한 forecast 예측 (시계열 예측)
 
-
+<br>
 
 
 
@@ -59,7 +59,7 @@
 
 ​	-python 에서 제공하는 plotly 라이브러리 사용
 
-
+<br>
 
 
 
@@ -67,9 +67,13 @@
 
 ​	-미래의 핵심 소비층인 실버세대를 위한 온라인 시장 공략
 
+<br>
 
+<br>
 
 *보러가기: [**Analysis of consumption trends**](https://github.com/hwanginbeom/Portfolio_ML/tree/master/Analysis%20of%20consumption%20trends)*    
+
+<br>
 
 
 ------
@@ -80,13 +84,13 @@
 
 빅콘테스트에서 진행한 대회로 챔피언리그에 참여 하였습니다. 대회 주제는 NS SHOP 판매실적 예측을 통한 편성 최적화 방안 도출 이였습니다.
 
-
+<br>
 
 
 
 - Summary
 
-
+<br>
 
 
   (1) 기간
@@ -95,7 +99,7 @@
 
 
 
-
+<br>
 
   (2). Data
 
@@ -109,7 +113,7 @@
 
 
 
-
+<br>
 
   ​(3). Data Preprocessing
 
@@ -123,7 +127,7 @@
 
 
 
-
+<br>
 
   (4). Model & Algorithms
 
@@ -133,7 +137,7 @@
 
 
 
-
+<br>
 
   (5)Visualization
 
@@ -141,7 +145,7 @@
 
 ​	-R에서 제공하는 ggplot
 
-
+<br>
 
 
 
@@ -153,13 +157,13 @@
 
 ​	-알고리즘에 따른 취급액 예측(MAPE)
 
+<br>
 
+<br>
 
+*보러가기: [Sales performance prediction & Optimization plan](https://github.com/hwanginbeom/Portfolio_ML/tree/master/Sales%20performance%20prediction%20%26%20Optimization%20plan)*   
 
-
-*보러가기: [****Sales performance prediction & Optimization plan****](https://github.com/hwanginbeom/Portfolio_ML/tree/master/Sales%20performance%20prediction%20%26%20Optimization%20plan)*    
-
-
+<br> 
 
 ------
 
@@ -171,18 +175,18 @@
 
 
 
-
+<br>
 
 - Summary
 
-
+<br>
 
 
   (1). 기간
 
 ​	-2020.08.21 - 2020.09.10
 
-
+<br>
 
 
 
@@ -192,7 +196,7 @@
 
 
 
-
+<br>
 
   (3). Data Preprocessing
 
@@ -200,7 +204,7 @@
 
 ​	-python의 pandas, numpy 라이브러리 통한 데이터 가공
 
-
+<br>
 
 
 
@@ -208,7 +212,7 @@
 
 ​	-SVD / Slope / NMF / ALS
 
-
+<br>
 
 
 
@@ -216,7 +220,7 @@
 
 ​	-power bi 를 통한 시각화
 
-
+<br>
 
 
 
@@ -230,10 +234,12 @@
 
 ​	-사용자 기반 필터링과 메타 데이터의 변수들의 가중치를 통한 Hybrid 추천 모델 구현
 
+<br>
 
-
-
+<br>
 
 
 
 *보러가기: [****Movie Recommendations****](https://github.com/hwanginbeom/Portfolio_ML/tree/master/movie%20recommendations)*    
+
+<br>
