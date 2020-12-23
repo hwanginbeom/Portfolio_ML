@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_21f93854a6344c578072d042ef65a6ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_21f93854a6344c578072d042ef65a6ba" ></div>
+        
+</body>
+<script>    
+    
+            var map_21f93854a6344c578072d042ef65a6ba = L.map(
+                "map_21f93854a6344c578072d042ef65a6ba",
+                {
+                    center: [37.60104902, 127.0659356],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_94e9878077054e74a7aca1201f976561 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var marker_6514af9eacf24a94ac22a6591aab7ef6 = L.marker(
+                [37.45787083, 126.9047318],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_81974597c53e4ec494d1e7a14d4782f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6514af9eacf24a94ac22a6591aab7ef6.setIcon(icon_81974597c53e4ec494d1e7a14d4782f7);
+        
+    
+        var popup_e3179ff71daa42148e11481299923868 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_727107369c4742ea84e390486d7ec13d = $(`<div id="html_727107369c4742ea84e390486d7ec13d" style="width: 100.0%; height: 100.0%;">현대시장</div>`)[0];
+            popup_e3179ff71daa42148e11481299923868.setContent(html_727107369c4742ea84e390486d7ec13d);
+        
+
+        marker_6514af9eacf24a94ac22a6591aab7ef6.bindPopup(popup_e3179ff71daa42148e11481299923868)
+        ;
+
+        
+    
+    
+            var marker_b7c096615ba84950b7591f572da7b5d9 = L.marker(
+                [37.57831397, 127.0410797],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_2720135866784e40ad1e9320820d834f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7c096615ba84950b7591f572da7b5d9.setIcon(icon_2720135866784e40ad1e9320820d834f);
+        
+    
+        var popup_e316f51005a3432a952db48004c1f3ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f33dc4a94994db299ce5ca3e2063403 = $(`<div id="html_7f33dc4a94994db299ce5ca3e2063403" style="width: 100.0%; height: 100.0%;">청량리수산시장</div>`)[0];
+            popup_e316f51005a3432a952db48004c1f3ae.setContent(html_7f33dc4a94994db299ce5ca3e2063403);
+        
+
+        marker_b7c096615ba84950b7591f572da7b5d9.bindPopup(popup_e316f51005a3432a952db48004c1f3ae)
+        ;
+
+        
+    
+    
+            var marker_b5507c54d8a542febb9f2cd1077e0e4e = L.marker(
+                [37.58098784, 127.043361],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_698e290a79b04febbf4650e68f0d1798 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5507c54d8a542febb9f2cd1077e0e4e.setIcon(icon_698e290a79b04febbf4650e68f0d1798);
+        
+    
+        var popup_ed2a4f76e7464c2bba40c3e3f3dec4bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc685f674fb84c6da0793ff15eaef9bb = $(`<div id="html_bc685f674fb84c6da0793ff15eaef9bb" style="width: 100.0%; height: 100.0%;">청량리전통시장</div>`)[0];
+            popup_ed2a4f76e7464c2bba40c3e3f3dec4bb.setContent(html_bc685f674fb84c6da0793ff15eaef9bb);
+        
+
+        marker_b5507c54d8a542febb9f2cd1077e0e4e.bindPopup(popup_ed2a4f76e7464c2bba40c3e3f3dec4bb)
+        ;
+
+        
+    
+    
+            var marker_82be764a71f54a3b88050da4139129a8 = L.marker(
+                [37.57797285, 127.0684128],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_b424acae60044503b3b9724d3494988b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82be764a71f54a3b88050da4139129a8.setIcon(icon_b424acae60044503b3b9724d3494988b);
+        
+    
+        var popup_b5f876b90c904e15aec159500ed5e14c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_084bc1fbeef742bb97decc179ec7ed40 = $(`<div id="html_084bc1fbeef742bb97decc179ec7ed40" style="width: 100.0%; height: 100.0%;">전곡시장</div>`)[0];
+            popup_b5f876b90c904e15aec159500ed5e14c.setContent(html_084bc1fbeef742bb97decc179ec7ed40);
+        
+
+        marker_82be764a71f54a3b88050da4139129a8.bindPopup(popup_b5f876b90c904e15aec159500ed5e14c)
+        ;
+
+        
+    
+    
+            var marker_336c2482f78b48c4aaa961c9a44a6c89 = L.marker(
+                [37.565684399999995, 127.05177179999998],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_8193d9a5a41a489b9bef11a602870b88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_336c2482f78b48c4aaa961c9a44a6c89.setIcon(icon_8193d9a5a41a489b9bef11a602870b88);
+        
+    
+        var popup_f454fbd5414748e9817bc361014db37e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4c3dd5522814c80849ee3d8a734f3dd = $(`<div id="html_e4c3dd5522814c80849ee3d8a734f3dd" style="width: 100.0%; height: 100.0%;">성동용답상가시장</div>`)[0];
+            popup_f454fbd5414748e9817bc361014db37e.setContent(html_e4c3dd5522814c80849ee3d8a734f3dd);
+        
+
+        marker_336c2482f78b48c4aaa961c9a44a6c89.bindPopup(popup_f454fbd5414748e9817bc361014db37e)
+        ;
+
+        
+    
+    
+            var marker_28a29e51b43c416f9aba37e65968e76b = L.marker(
+                [37.611876099999996, 127.06121189999999],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_d64b56086ea24377a99e14b2ce52ddc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28a29e51b43c416f9aba37e65968e76b.setIcon(icon_d64b56086ea24377a99e14b2ce52ddc2);
+        
+    
+        var popup_c246d48b4ea349ebb7664a459413d27d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_985fd11a217e4f1fa61f29e35538ab46 = $(`<div id="html_985fd11a217e4f1fa61f29e35538ab46" style="width: 100.0%; height: 100.0%;">석관황금시장</div>`)[0];
+            popup_c246d48b4ea349ebb7664a459413d27d.setContent(html_985fd11a217e4f1fa61f29e35538ab46);
+        
+
+        marker_28a29e51b43c416f9aba37e65968e76b.bindPopup(popup_c246d48b4ea349ebb7664a459413d27d)
+        ;
+
+        
+    
+    
+            var marker_ee3eccaf020c428980ebb273e367ea39 = L.marker(
+                [37.57119549, 127.01501110000001],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_401495a52a1f43b4ad0e797d27a21abc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee3eccaf020c428980ebb273e367ea39.setIcon(icon_401495a52a1f43b4ad0e797d27a21abc);
+        
+    
+        var popup_be8e484c219f46579148287e9c7744b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91c6908d580a471c87a544f76a7b8111 = $(`<div id="html_91c6908d580a471c87a544f76a7b8111" style="width: 100.0%; height: 100.0%;">청평화시장</div>`)[0];
+            popup_be8e484c219f46579148287e9c7744b2.setContent(html_91c6908d580a471c87a544f76a7b8111);
+        
+
+        marker_ee3eccaf020c428980ebb273e367ea39.bindPopup(popup_be8e484c219f46579148287e9c7744b2)
+        ;
+
+        
+    
+    
+            var marker_eb332a20b827436c9db41214c131cfa2 = L.marker(
+                [37.56917817, 127.02000749999999],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_2b56396be03c4750b57fd06ce1f5bc49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb332a20b827436c9db41214c131cfa2.setIcon(icon_2b56396be03c4750b57fd06ce1f5bc49);
+        
+    
+        var popup_242e92aea6734ec9bde950bf41adeb09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1121dff2283d4beebe2e133c064b18b3 = $(`<div id="html_1121dff2283d4beebe2e133c064b18b3" style="width: 100.0%; height: 100.0%;">서울중앙시장</div>`)[0];
+            popup_242e92aea6734ec9bde950bf41adeb09.setContent(html_1121dff2283d4beebe2e133c064b18b3);
+        
+
+        marker_eb332a20b827436c9db41214c131cfa2.bindPopup(popup_242e92aea6734ec9bde950bf41adeb09)
+        ;
+
+        
+    
+    
+            var marker_c081b38e7fb049689cbd49a5a65eebf1 = L.marker(
+                [37.57901833, 127.0887068],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_c0b4d017b41841139ab3c68bfb391e45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c081b38e7fb049689cbd49a5a65eebf1.setIcon(icon_c0b4d017b41841139ab3c68bfb391e45);
+        
+    
+        var popup_d0034497e7f34d2daa607c3796c77b62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30d626e7fa834ed4abd610e7a099d7b8 = $(`<div id="html_30d626e7fa834ed4abd610e7a099d7b8" style="width: 100.0%; height: 100.0%;">면목골목시장</div>`)[0];
+            popup_d0034497e7f34d2daa607c3796c77b62.setContent(html_30d626e7fa834ed4abd610e7a099d7b8);
+        
+
+        marker_c081b38e7fb049689cbd49a5a65eebf1.bindPopup(popup_d0034497e7f34d2daa607c3796c77b62)
+        ;
+
+        
+    
+    
+            var marker_0f18df51c49f43bc94712130f4bcbac8 = L.marker(
+                [37.58099465, 127.08674029999999],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_aa0a859ec1864ac99af5d5ec6c9ddc06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f18df51c49f43bc94712130f4bcbac8.setIcon(icon_aa0a859ec1864ac99af5d5ec6c9ddc06);
+        
+    
+        var popup_ba693b4a5615493d9d9fddf36427b74c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c62dbe827c3d4ef6802a584ecdfbb599 = $(`<div id="html_c62dbe827c3d4ef6802a584ecdfbb599" style="width: 100.0%; height: 100.0%;">면목시장</div>`)[0];
+            popup_ba693b4a5615493d9d9fddf36427b74c.setContent(html_c62dbe827c3d4ef6802a584ecdfbb599);
+        
+
+        marker_0f18df51c49f43bc94712130f4bcbac8.bindPopup(popup_ba693b4a5615493d9d9fddf36427b74c)
+        ;
+
+        
+    
+    
+            var marker_cf789776fd1042028b42cb5991f0fd9f = L.marker(
+                [37.58375655, 127.0886608],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_e63d1804425e4e25b6a9081e968705c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf789776fd1042028b42cb5991f0fd9f.setIcon(icon_e63d1804425e4e25b6a9081e968705c1);
+        
+    
+        var popup_8d38ff15fcc145ba9da80a07fdffb8b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4cee78e1d40423fbe1fb94bdd4ecec2 = $(`<div id="html_d4cee78e1d40423fbe1fb94bdd4ecec2" style="width: 100.0%; height: 100.0%;">사가정시장</div>`)[0];
+            popup_8d38ff15fcc145ba9da80a07fdffb8b4.setContent(html_d4cee78e1d40423fbe1fb94bdd4ecec2);
+        
+
+        marker_cf789776fd1042028b42cb5991f0fd9f.bindPopup(popup_8d38ff15fcc145ba9da80a07fdffb8b4)
+        ;
+
+        
+    
+    
+            var marker_5aa4d012afbb4ece9e6a53c64dd59371 = L.marker(
+                [37.59152247, 127.09006969999999],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_d8ead2b038454706aa8bb1a675d86593 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5aa4d012afbb4ece9e6a53c64dd59371.setIcon(icon_d8ead2b038454706aa8bb1a675d86593);
+        
+    
+        var popup_ed88a05140bd475f92d7791172277732 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_701fa2214ca340b5a0c465e003ae70d5 = $(`<div id="html_701fa2214ca340b5a0c465e003ae70d5" style="width: 100.0%; height: 100.0%;">동원시장</div>`)[0];
+            popup_ed88a05140bd475f92d7791172277732.setContent(html_701fa2214ca340b5a0c465e003ae70d5);
+        
+
+        marker_5aa4d012afbb4ece9e6a53c64dd59371.bindPopup(popup_ed88a05140bd475f92d7791172277732)
+        ;
+
+        
+    
+    
+            var marker_28cb3c63387047e2b4d05a1a41a04127 = L.marker(
+                [37.60783483, 127.09459509999999],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_b66d1f0fb6344e6eb7fe15e6d93d9f5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28cb3c63387047e2b4d05a1a41a04127.setIcon(icon_b66d1f0fb6344e6eb7fe15e6d93d9f5e);
+        
+    
+        var popup_fbc5b28b49ae42b49a7986a5fad72e43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c642cbbba1e44898253b4096ed86a49 = $(`<div id="html_6c642cbbba1e44898253b4096ed86a49" style="width: 100.0%; height: 100.0%;">신아타운</div>`)[0];
+            popup_fbc5b28b49ae42b49a7986a5fad72e43.setContent(html_6c642cbbba1e44898253b4096ed86a49);
+        
+
+        marker_28cb3c63387047e2b4d05a1a41a04127.bindPopup(popup_fbc5b28b49ae42b49a7986a5fad72e43)
+        ;
+
+        
+    
+    
+            var marker_37fcd011320b4e3cbef993fdfed0d98c = L.marker(
+                [37.60923522, 127.0979045],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_1ddd3de3ab13469aa0ae25b167c21b52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37fcd011320b4e3cbef993fdfed0d98c.setIcon(icon_1ddd3de3ab13469aa0ae25b167c21b52);
+        
+    
+        var popup_0cdb83845e004fb29b9a6a10dd996c49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20ab6e7a3bc2429a8789e2fb74dd0063 = $(`<div id="html_20ab6e7a3bc2429a8789e2fb74dd0063" style="width: 100.0%; height: 100.0%;">동성타워프라자</div>`)[0];
+            popup_0cdb83845e004fb29b9a6a10dd996c49.setContent(html_20ab6e7a3bc2429a8789e2fb74dd0063);
+        
+
+        marker_37fcd011320b4e3cbef993fdfed0d98c.bindPopup(popup_0cdb83845e004fb29b9a6a10dd996c49)
+        ;
+
+        
+    
+    
+            var marker_626318b4bfbb4e94989c2bad709838a0 = L.marker(
+                [37.59417034, 127.07648229999998],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_668b5cf818ff4d4dbb910a58ba57f7c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_626318b4bfbb4e94989c2bad709838a0.setIcon(icon_668b5cf818ff4d4dbb910a58ba57f7c3);
+        
+    
+        var popup_2a8464a5fa85427d9f2485119617184e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_889a04a6602b4ed5b3dafc37df5855b1 = $(`<div id="html_889a04a6602b4ed5b3dafc37df5855b1" style="width: 100.0%; height: 100.0%;">동부골목시장</div>`)[0];
+            popup_2a8464a5fa85427d9f2485119617184e.setContent(html_889a04a6602b4ed5b3dafc37df5855b1);
+        
+
+        marker_626318b4bfbb4e94989c2bad709838a0.bindPopup(popup_2a8464a5fa85427d9f2485119617184e)
+        ;
+
+        
+    
+    
+            var marker_85593cd19cce48b997770f3171e68906 = L.marker(
+                [37.62104902, 127.06593559999999],
+                {}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+            var icon_d3a681d117c941ac8e54aa877c027a38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85593cd19cce48b997770f3171e68906.setIcon(icon_d3a681d117c941ac8e54aa877c027a38);
+        
+    
+        var popup_6287981877964fa8b45cae1a1e574fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efc1b915fe5a4477a2d1d5b90529924d = $(`<div id="html_efc1b915fe5a4477a2d1d5b90529924d" style="width: 100.0%; height: 100.0%;">한솔로지스틱스(주) 성북센터</div>`)[0];
+            popup_6287981877964fa8b45cae1a1e574fa0.setContent(html_efc1b915fe5a4477a2d1d5b90529924d);
+        
+
+        marker_85593cd19cce48b997770f3171e68906.bindPopup(popup_6287981877964fa8b45cae1a1e574fa0)
+        ;
+
+        
+    
+    
+            var circle_marker_ed8e39cf97b04a92aca86b24496da8a1 = L.circleMarker(
+                [37.62104902, 127.06593559999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "skyblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_21f93854a6344c578072d042ef65a6ba);
+        
+    
+        var popup_51cb932c0e57473096ecfcf24ad2da5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d412fcad518a4c0490f9a71e6197d611 = $(`<div id="html_d412fcad518a4c0490f9a71e6197d611" style="width: 100.0%; height: 100.0%;">한솔로지스틱스(주) 성북센터</div>`)[0];
+            popup_51cb932c0e57473096ecfcf24ad2da5c.setContent(html_d412fcad518a4c0490f9a71e6197d611);
+        
+
+        circle_marker_ed8e39cf97b04a92aca86b24496da8a1.bindPopup(popup_51cb932c0e57473096ecfcf24ad2da5c)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aff2a7f31211462689aa4d9ca314f7f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_aff2a7f31211462689aa4d9ca314f7f1" ></div>
+        
+</body>
+<script>    
+    
+            var map_aff2a7f31211462689aa4d9ca314f7f1 = L.map(
+                "map_aff2a7f31211462689aa4d9ca314f7f1",
+                {
+                    center: [37.566345, 126.977893],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f3cbda18a64f4b2ea079f4c3c2254d3e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var marker_0b547754dcb9430baeef696dcc1731c5 = L.marker(
+                [37.48584638, 127.0888408],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_6a3162d1cbe8425192a7f0fa73c84457 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b547754dcb9430baeef696dcc1731c5.setIcon(icon_6a3162d1cbe8425192a7f0fa73c84457);
+        
+    
+        var popup_1ee8ffb27cc84e6f94364ab3914ca1bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43792a547bd5401d90c82a913872c4f8 = $(`<div id="html_43792a547bd5401d90c82a913872c4f8" style="width: 100.0%; height: 100.0%;">강남창고</div>`)[0];
+            popup_1ee8ffb27cc84e6f94364ab3914ca1bd.setContent(html_43792a547bd5401d90c82a913872c4f8);
+        
+
+        marker_0b547754dcb9430baeef696dcc1731c5.bindPopup(popup_1ee8ffb27cc84e6f94364ab3914ca1bd)
+        ;
+
+        
+    
+    
+            var marker_19f42bc2f4ba4d17910ac4073cdbd213 = L.marker(
+                [37.58951511, 126.8827755],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_4d15088abe1b4f02a7ad6eee13e277bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_19f42bc2f4ba4d17910ac4073cdbd213.setIcon(icon_4d15088abe1b4f02a7ad6eee13e277bb);
+        
+    
+        var popup_653c7f7daa35484d9ec754a7c9725175 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b79c93880b443e88ea69b1359507639 = $(`<div id="html_5b79c93880b443e88ea69b1359507639" style="width: 100.0%; height: 100.0%;">씨제이대한통운(주) 수색물류센터</div>`)[0];
+            popup_653c7f7daa35484d9ec754a7c9725175.setContent(html_5b79c93880b443e88ea69b1359507639);
+        
+
+        marker_19f42bc2f4ba4d17910ac4073cdbd213.bindPopup(popup_653c7f7daa35484d9ec754a7c9725175)
+        ;
+
+        
+    
+    
+            var marker_083613abe328406aa177ad67efc1f691 = L.marker(
+                [37.476549600000006, 126.88399229999999],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_71e4e53f7dc74ee9ab7411b5cb7e5cde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_083613abe328406aa177ad67efc1f691.setIcon(icon_71e4e53f7dc74ee9ab7411b5cb7e5cde);
+        
+    
+        var popup_bde3f2ea76f047e9816c53c884e2d70d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c261a075372b40d69a4ec9d5b46df103 = $(`<div id="html_c261a075372b40d69a4ec9d5b46df103" style="width: 100.0%; height: 100.0%;">롯데글로벌로지스(주)  서울구로지점</div>`)[0];
+            popup_bde3f2ea76f047e9816c53c884e2d70d.setContent(html_c261a075372b40d69a4ec9d5b46df103);
+        
+
+        marker_083613abe328406aa177ad67efc1f691.bindPopup(popup_bde3f2ea76f047e9816c53c884e2d70d)
+        ;
+
+        
+    
+    
+            var marker_2475a410fa57407ab2f74c093fc45533 = L.marker(
+                [37.54644046, 127.06202830000001],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_ea18fe77a20d4f0f8f5e4b10073f062f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2475a410fa57407ab2f74c093fc45533.setIcon(icon_ea18fe77a20d4f0f8f5e4b10073f062f);
+        
+    
+        var popup_d9974fa3ba4942318894f0474dd3e869 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6b0c19639984edabe94df7f78a84465 = $(`<div id="html_f6b0c19639984edabe94df7f78a84465" style="width: 100.0%; height: 100.0%;">삼원산업사</div>`)[0];
+            popup_d9974fa3ba4942318894f0474dd3e869.setContent(html_f6b0c19639984edabe94df7f78a84465);
+        
+
+        marker_2475a410fa57407ab2f74c093fc45533.bindPopup(popup_d9974fa3ba4942318894f0474dd3e869)
+        ;
+
+        
+    
+    
+            var marker_3729bf2f97e946df84db549e2619b56c = L.marker(
+                [37.5404876, 127.05585420000001],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_b972447fbca147868837ca75e1036158 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3729bf2f97e946df84db549e2619b56c.setIcon(icon_b972447fbca147868837ca75e1036158);
+        
+    
+        var popup_362ec8fa1eae4854864d3fac1910329d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe09a392bdff4dd1b5e5d21362dfbe7a = $(`<div id="html_fe09a392bdff4dd1b5e5d21362dfbe7a" style="width: 100.0%; height: 100.0%;">씨제이대한통운(주) 중부물류창고</div>`)[0];
+            popup_362ec8fa1eae4854864d3fac1910329d.setContent(html_fe09a392bdff4dd1b5e5d21362dfbe7a);
+        
+
+        marker_3729bf2f97e946df84db549e2619b56c.bindPopup(popup_362ec8fa1eae4854864d3fac1910329d)
+        ;
+
+        
+    
+    
+            var marker_063239dc5cb144f6a287c24f29c32b21 = L.marker(
+                [37.57293941, 126.83757949999999],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_916ace1a7fae4dc58bfca3d4b6fafc25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_063239dc5cb144f6a287c24f29c32b21.setIcon(icon_916ace1a7fae4dc58bfca3d4b6fafc25);
+        
+    
+        var popup_75a70008eea840ae8d52de9e6bce3dcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ac3342b19c74f5797504c400baaf476 = $(`<div id="html_2ac3342b19c74f5797504c400baaf476" style="width: 100.0%; height: 100.0%;">안국물류센터</div>`)[0];
+            popup_75a70008eea840ae8d52de9e6bce3dcd.setContent(html_2ac3342b19c74f5797504c400baaf476);
+        
+
+        marker_063239dc5cb144f6a287c24f29c32b21.bindPopup(popup_75a70008eea840ae8d52de9e6bce3dcd)
+        ;
+
+        
+    
+    
+            var marker_eb5b12333b5e488b99c72e9a657b2029 = L.marker(
+                [37.68392493, 127.0467118],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_6bd539eb9f684c3cbc234d75625d3f68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb5b12333b5e488b99c72e9a657b2029.setIcon(icon_6bd539eb9f684c3cbc234d75625d3f68);
+        
+    
+        var popup_30fdb321f3a4496cb674df32b99100a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1965901f501f4624b29558526a372fb8 = $(`<div id="html_1965901f501f4624b29558526a372fb8" style="width: 100.0%; height: 100.0%;">이화창고</div>`)[0];
+            popup_30fdb321f3a4496cb674df32b99100a6.setContent(html_1965901f501f4624b29558526a372fb8);
+        
+
+        marker_eb5b12333b5e488b99c72e9a657b2029.bindPopup(popup_30fdb321f3a4496cb674df32b99100a6)
+        ;
+
+        
+    
+    
+            var marker_38d30b80109d4ba685cfe1a5bfb6144b = L.marker(
+                [37.53593284, 126.8929549],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_da3ebc75012f4835af4938ba0a5bede8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38d30b80109d4ba685cfe1a5bfb6144b.setIcon(icon_da3ebc75012f4835af4938ba0a5bede8);
+        
+    
+        var popup_a25679635182489e9212169c001a8abf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cced11a936f4e728b6e2095075bf436 = $(`<div id="html_7cced11a936f4e728b6e2095075bf436" style="width: 100.0%; height: 100.0%;">롯데글로벌로지스(주) 영등포제과센터</div>`)[0];
+            popup_a25679635182489e9212169c001a8abf.setContent(html_7cced11a936f4e728b6e2095075bf436);
+        
+
+        marker_38d30b80109d4ba685cfe1a5bfb6144b.bindPopup(popup_a25679635182489e9212169c001a8abf)
+        ;
+
+        
+    
+    
+            var marker_cfbf29f50c0e4a93aa250c3026a2dbe2 = L.marker(
+                [37.48202335, 126.87887669999999],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_bfcda751d52a43f4875be9b8c147c1e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cfbf29f50c0e4a93aa250c3026a2dbe2.setIcon(icon_bfcda751d52a43f4875be9b8c147c1e7);
+        
+    
+        var popup_893e6445e3104f09aa5163f73450db72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4907fc35606843318b0207c3e90963c1 = $(`<div id="html_4907fc35606843318b0207c3e90963c1" style="width: 100.0%; height: 100.0%;">주식회사 3피엘</div>`)[0];
+            popup_893e6445e3104f09aa5163f73450db72.setContent(html_4907fc35606843318b0207c3e90963c1);
+        
+
+        marker_cfbf29f50c0e4a93aa250c3026a2dbe2.bindPopup(popup_893e6445e3104f09aa5163f73450db72)
+        ;
+
+        
+    
+    
+            var marker_abdbe9b75c2b4fa4b145f43f90f836be = L.marker(
+                [37.55355363, 126.81893020000001],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_43bbed64393548a89371c5e9598f10e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_abdbe9b75c2b4fa4b145f43f90f836be.setIcon(icon_43bbed64393548a89371c5e9598f10e7);
+        
+    
+        var popup_2230b6a3d8ef43c0b8da2f772fb60c74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_001f4aad93574f3290f0141cfd0d6ffb = $(`<div id="html_001f4aad93574f3290f0141cfd0d6ffb" style="width: 100.0%; height: 100.0%;">수협중앙회 강서공판장</div>`)[0];
+            popup_2230b6a3d8ef43c0b8da2f772fb60c74.setContent(html_001f4aad93574f3290f0141cfd0d6ffb);
+        
+
+        marker_abdbe9b75c2b4fa4b145f43f90f836be.bindPopup(popup_2230b6a3d8ef43c0b8da2f772fb60c74)
+        ;
+
+        
+    
+    
+            var marker_0a0db748be9140ce8db71a8952c10435 = L.marker(
+                [37.55570359, 126.8067446],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_f841280dcc3c4b2bba4710aa4d1b45dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a0db748be9140ce8db71a8952c10435.setIcon(icon_f841280dcc3c4b2bba4710aa4d1b45dd);
+        
+    
+        var popup_6b1e2b4121de4026a8dc976713621ea8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07804d581261421d87be5df8e8364b94 = $(`<div id="html_07804d581261421d87be5df8e8364b94" style="width: 100.0%; height: 100.0%;">디에이치엘서플라이체인코리안(주) 김포센터</div>`)[0];
+            popup_6b1e2b4121de4026a8dc976713621ea8.setContent(html_07804d581261421d87be5df8e8364b94);
+        
+
+        marker_0a0db748be9140ce8db71a8952c10435.bindPopup(popup_6b1e2b4121de4026a8dc976713621ea8)
+        ;
+
+        
+    
+    
+            var marker_70b19dd5a184457392db17fec7bb60fd = L.marker(
+                [37.47894467, 127.12823540000001],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_2bbb3ece5c81458ca1d2bbb3ef10e8ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_70b19dd5a184457392db17fec7bb60fd.setIcon(icon_2bbb3ece5c81458ca1d2bbb3ef10e8ac);
+        
+    
+        var popup_7c3e1280cd6140febbe9732e2b38395f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_383fd737068e4165b4a15cbfa229b7e3 = $(`<div id="html_383fd737068e4165b4a15cbfa229b7e3" style="width: 100.0%; height: 100.0%;">(주)판토스 (성남물류)</div>`)[0];
+            popup_7c3e1280cd6140febbe9732e2b38395f.setContent(html_383fd737068e4165b4a15cbfa229b7e3);
+        
+
+        marker_70b19dd5a184457392db17fec7bb60fd.bindPopup(popup_7c3e1280cd6140febbe9732e2b38395f)
+        ;
+
+        
+    
+    
+            var marker_960f4e44a1b2439cbd90ca339144da14 = L.marker(
+                [37.47894467, 127.12823540000001],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_d0857b52614245a3b14eed8dbb3c4998 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_960f4e44a1b2439cbd90ca339144da14.setIcon(icon_d0857b52614245a3b14eed8dbb3c4998);
+        
+    
+        var popup_6c8810f69b8142a08e32b8d4c5474b4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b73c9f605063462ca0646a8df7173f50 = $(`<div id="html_b73c9f605063462ca0646a8df7173f50" style="width: 100.0%; height: 100.0%;">주식회사 한진</div>`)[0];
+            popup_6c8810f69b8142a08e32b8d4c5474b4c.setContent(html_b73c9f605063462ca0646a8df7173f50);
+        
+
+        marker_960f4e44a1b2439cbd90ca339144da14.bindPopup(popup_6c8810f69b8142a08e32b8d4c5474b4c)
+        ;
+
+        
+    
+    
+            var marker_6043c5395ead4c6794849d40091330e7 = L.marker(
+                [37.47894467, 127.12823540000001],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_af9518b7a9004e1c99183e79c4431a4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6043c5395ead4c6794849d40091330e7.setIcon(icon_af9518b7a9004e1c99183e79c4431a4d);
+        
+    
+        var popup_492fe548e73244ea8de69a40c4861e8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c58c90ddcbd14d8a8bc9ba9037ae5713 = $(`<div id="html_c58c90ddcbd14d8a8bc9ba9037ae5713" style="width: 100.0%; height: 100.0%;">롯데글로벌로지스(주) 서울남부지점</div>`)[0];
+            popup_492fe548e73244ea8de69a40c4861e8d.setContent(html_c58c90ddcbd14d8a8bc9ba9037ae5713);
+        
+
+        marker_6043c5395ead4c6794849d40091330e7.bindPopup(popup_492fe548e73244ea8de69a40c4861e8d)
+        ;
+
+        
+    
+    
+            var marker_159cc6a094cc468c933b51fdb94ce894 = L.marker(
+                [37.55565256, 126.8067017],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_37548db6e1464f078eea2e9b7ed00664 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_159cc6a094cc468c933b51fdb94ce894.setIcon(icon_37548db6e1464f078eea2e9b7ed00664);
+        
+    
+        var popup_abe7183e88d94b35a546c98b2dc6fbee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad950e1c8dcb4ab2bda0caa469566577 = $(`<div id="html_ad950e1c8dcb4ab2bda0caa469566577" style="width: 100.0%; height: 100.0%;">(주)와우로지스틱스</div>`)[0];
+            popup_abe7183e88d94b35a546c98b2dc6fbee.setContent(html_ad950e1c8dcb4ab2bda0caa469566577);
+        
+
+        marker_159cc6a094cc468c933b51fdb94ce894.bindPopup(popup_abe7183e88d94b35a546c98b2dc6fbee)
+        ;
+
+        
+    
+    
+            var marker_e97cc6bf499c4569903c0646e8503505 = L.marker(
+                [37.47559906, 127.1257314],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_3a484b7a7b6a403a8dbe8bc3e3316d3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e97cc6bf499c4569903c0646e8503505.setIcon(icon_3a484b7a7b6a403a8dbe8bc3e3316d3f);
+        
+    
+        var popup_e3b17000c23a41e3ae96ac252931e92e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c37307ee016c4fe9b2f5ad0074bd763c = $(`<div id="html_c37307ee016c4fe9b2f5ad0074bd763c" style="width: 100.0%; height: 100.0%;">케이씨냉장(주)</div>`)[0];
+            popup_e3b17000c23a41e3ae96ac252931e92e.setContent(html_c37307ee016c4fe9b2f5ad0074bd763c);
+        
+
+        marker_e97cc6bf499c4569903c0646e8503505.bindPopup(popup_e3b17000c23a41e3ae96ac252931e92e)
+        ;
+
+        
+    
+    
+            var marker_8a1e03d85acd4d98ad428124d1b8da01 = L.marker(
+                [37.62339693, 127.06172749999999],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_4617a8b123134a53a35b3fbc382a5d9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8a1e03d85acd4d98ad428124d1b8da01.setIcon(icon_4617a8b123134a53a35b3fbc382a5d9b);
+        
+    
+        var popup_908b5598ff444921b44426748a6f7f14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c38fd690ecb040878b0689549dccdaf9 = $(`<div id="html_c38fd690ecb040878b0689549dccdaf9" style="width: 100.0%; height: 100.0%;">롯데글로벌로지스(주) 성북집배센터</div>`)[0];
+            popup_908b5598ff444921b44426748a6f7f14.setContent(html_c38fd690ecb040878b0689549dccdaf9);
+        
+
+        marker_8a1e03d85acd4d98ad428124d1b8da01.bindPopup(popup_908b5598ff444921b44426748a6f7f14)
+        ;
+
+        
+    
+    
+            var marker_a30ece3b27f54020885e5ba89aa59d38 = L.marker(
+                [37.56830047, 126.8447575],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_c9587cb56ffd499a82a699d65a8c9a36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a30ece3b27f54020885e5ba89aa59d38.setIcon(icon_c9587cb56ffd499a82a699d65a8c9a36);
+        
+    
+        var popup_baea3d199c10451baf062261ca84c954 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1135409897b4914a1da3cef31ff6108 = $(`<div id="html_f1135409897b4914a1da3cef31ff6108" style="width: 100.0%; height: 100.0%;">씨제이대한통운(주) 가양센터</div>`)[0];
+            popup_baea3d199c10451baf062261ca84c954.setContent(html_f1135409897b4914a1da3cef31ff6108);
+        
+
+        marker_a30ece3b27f54020885e5ba89aa59d38.bindPopup(popup_baea3d199c10451baf062261ca84c954)
+        ;
+
+        
+    
+    
+            var marker_cab558554cd645a5a3ba2baeb1cb90df = L.marker(
+                [37.52914937, 126.8901004],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_1815777a77344440a96d06eb83b95f9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cab558554cd645a5a3ba2baeb1cb90df.setIcon(icon_1815777a77344440a96d06eb83b95f9e);
+        
+    
+        var popup_21f5e4f4df324bbeb88462fbf078a2de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe8f5db3cc69447199ff5e2f7b5db457 = $(`<div id="html_fe8f5db3cc69447199ff5e2f7b5db457" style="width: 100.0%; height: 100.0%;">씨제이지엘에스(주) 영등포터미널</div>`)[0];
+            popup_21f5e4f4df324bbeb88462fbf078a2de.setContent(html_fe8f5db3cc69447199ff5e2f7b5db457);
+        
+
+        marker_cab558554cd645a5a3ba2baeb1cb90df.bindPopup(popup_21f5e4f4df324bbeb88462fbf078a2de)
+        ;
+
+        
+    
+    
+            var marker_8578b85f49a04a118a5b2ff7a926ca57 = L.marker(
+                [37.52053161, 126.89802420000001],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_84915bfdecef491fb11aaf09b3df7894 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8578b85f49a04a118a5b2ff7a926ca57.setIcon(icon_84915bfdecef491fb11aaf09b3df7894);
+        
+    
+        var popup_c4a13a74edd1493c92d2ca8fe048a631 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf663578748e4658822af570f7c1a556 = $(`<div id="html_bf663578748e4658822af570f7c1a556" style="width: 100.0%; height: 100.0%;">서영물류(주)</div>`)[0];
+            popup_c4a13a74edd1493c92d2ca8fe048a631.setContent(html_bf663578748e4658822af570f7c1a556);
+        
+
+        marker_8578b85f49a04a118a5b2ff7a926ca57.bindPopup(popup_c4a13a74edd1493c92d2ca8fe048a631)
+        ;
+
+        
+    
+    
+            var marker_486e9683613a4ee0ba58a1006e0f84d4 = L.marker(
+                [37.52257872, 126.9126409],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_3cc429d566fd41999f3c4447bee55355 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_486e9683613a4ee0ba58a1006e0f84d4.setIcon(icon_3cc429d566fd41999f3c4447bee55355);
+        
+    
+        var popup_cad4e6479ac648098b9ae03ecdd0976d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7c5021e55084827baea6d05d968a70c = $(`<div id="html_f7c5021e55084827baea6d05d968a70c" style="width: 100.0%; height: 100.0%;">백광의약품(주)</div>`)[0];
+            popup_cad4e6479ac648098b9ae03ecdd0976d.setContent(html_f7c5021e55084827baea6d05d968a70c);
+        
+
+        marker_486e9683613a4ee0ba58a1006e0f84d4.bindPopup(popup_cad4e6479ac648098b9ae03ecdd0976d)
+        ;
+
+        
+    
+    
+            var marker_2b2c6656c6c345bb9b692ebcacfbc70d = L.marker(
+                [37.55572911, 126.8066588],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_b9d7956981e84cc8bee747849fe0b0f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b2c6656c6c345bb9b692ebcacfbc70d.setIcon(icon_b9d7956981e84cc8bee747849fe0b0f4);
+        
+    
+        var popup_35b004d1bb0d4375a62eaaa59b1c96c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7dd3690df21942989465d8e21c273e67 = $(`<div id="html_7dd3690df21942989465d8e21c273e67" style="width: 100.0%; height: 100.0%;">유센로지스틱스코리아(주)</div>`)[0];
+            popup_35b004d1bb0d4375a62eaaa59b1c96c6.setContent(html_7dd3690df21942989465d8e21c273e67);
+        
+
+        marker_2b2c6656c6c345bb9b692ebcacfbc70d.bindPopup(popup_35b004d1bb0d4375a62eaaa59b1c96c6)
+        ;
+
+        
+    
+    
+            var marker_520943dae4554fc59e0d9ef2d9094549 = L.marker(
+                [37.47379944, 126.883871],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_0aea612d142d4a6691e708c34a7b1a78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_520943dae4554fc59e0d9ef2d9094549.setIcon(icon_0aea612d142d4a6691e708c34a7b1a78);
+        
+    
+        var popup_6452ee4579bb4e32943dee18a3dcceb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb7a5ed050254459b49a9413404ec45a = $(`<div id="html_cb7a5ed050254459b49a9413404ec45a" style="width: 100.0%; height: 100.0%;">(주)농심</div>`)[0];
+            popup_6452ee4579bb4e32943dee18a3dcceb5.setContent(html_cb7a5ed050254459b49a9413404ec45a);
+        
+
+        marker_520943dae4554fc59e0d9ef2d9094549.bindPopup(popup_6452ee4579bb4e32943dee18a3dcceb5)
+        ;
+
+        
+    
+    
+            var marker_cca9c7be38bd4dde9b73e73909858530 = L.marker(
+                [37.49101886, 126.8347152],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_74264084143d4800a9929ee5bf9ce954 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cca9c7be38bd4dde9b73e73909858530.setIcon(icon_74264084143d4800a9929ee5bf9ce954);
+        
+    
+        var popup_0afa2c00d26a4a0180bee03f58c0454d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_608248aea22240ff9082189d88916dee = $(`<div id="html_608248aea22240ff9082189d88916dee" style="width: 100.0%; height: 100.0%;">써니물류</div>`)[0];
+            popup_0afa2c00d26a4a0180bee03f58c0454d.setContent(html_608248aea22240ff9082189d88916dee);
+        
+
+        marker_cca9c7be38bd4dde9b73e73909858530.bindPopup(popup_0afa2c00d26a4a0180bee03f58c0454d)
+        ;
+
+        
+    
+    
+            var marker_201a1a7957ac4373a1a1780ba7c3bf6c = L.marker(
+                [37.54097048, 127.0589426],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_3834c0fc90c74f58994a863f3d5e2066 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_201a1a7957ac4373a1a1780ba7c3bf6c.setIcon(icon_3834c0fc90c74f58994a863f3d5e2066);
+        
+    
+        var popup_d449e0c0dada4edba5801f3030c17612 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a34dac12c28498fb3621f0628029598 = $(`<div id="html_4a34dac12c28498fb3621f0628029598" style="width: 100.0%; height: 100.0%;">(주)동양물류센터</div>`)[0];
+            popup_d449e0c0dada4edba5801f3030c17612.setContent(html_4a34dac12c28498fb3621f0628029598);
+        
+
+        marker_201a1a7957ac4373a1a1780ba7c3bf6c.bindPopup(popup_d449e0c0dada4edba5801f3030c17612)
+        ;
+
+        
+    
+    
+            var marker_1992cfcace234edea0a421d303bc6b39 = L.marker(
+                [37.54645048, 127.05180849999999],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_cdc0c5a6ffcc40edb2e7d28c03921a9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1992cfcace234edea0a421d303bc6b39.setIcon(icon_cdc0c5a6ffcc40edb2e7d28c03921a9c);
+        
+    
+        var popup_ca070f7376b64c548a4df6d5b858b373 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e451e7c5f6f74d6fb4885154bf4aa95a = $(`<div id="html_e451e7c5f6f74d6fb4885154bf4aa95a" style="width: 100.0%; height: 100.0%;">삼덕창고(주)</div>`)[0];
+            popup_ca070f7376b64c548a4df6d5b858b373.setContent(html_e451e7c5f6f74d6fb4885154bf4aa95a);
+        
+
+        marker_1992cfcace234edea0a421d303bc6b39.bindPopup(popup_ca070f7376b64c548a4df6d5b858b373)
+        ;
+
+        
+    
+    
+            var marker_affbb62c9bc547e8a9d85dac5bc53a2d = L.marker(
+                [37.56790237, 126.816032],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_98cabce2b5184f4a8c2e29c3a5ab62e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_affbb62c9bc547e8a9d85dac5bc53a2d.setIcon(icon_98cabce2b5184f4a8c2e29c3a5ab62e7);
+        
+    
+        var popup_19673df953e146289ab10e4cf967c3c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eee856a350274bf2adb122c4a0bdd31a = $(`<div id="html_eee856a350274bf2adb122c4a0bdd31a" style="width: 100.0%; height: 100.0%;">(주)케이더블유이코리아</div>`)[0];
+            popup_19673df953e146289ab10e4cf967c3c3.setContent(html_eee856a350274bf2adb122c4a0bdd31a);
+        
+
+        marker_affbb62c9bc547e8a9d85dac5bc53a2d.bindPopup(popup_19673df953e146289ab10e4cf967c3c3)
+        ;
+
+        
+    
+    
+            var marker_712273ff49654a389db2bd2291363619 = L.marker(
+                [37.49098481, 126.8347903],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_2d41a2b976124b86bf8f4b3e1a12fe1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_712273ff49654a389db2bd2291363619.setIcon(icon_2d41a2b976124b86bf8f4b3e1a12fe1d);
+        
+    
+        var popup_a0cdf88f86b5409c8dac08add9f100dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b921dce585a747a3af07022e940ed121 = $(`<div id="html_b921dce585a747a3af07022e940ed121" style="width: 100.0%; height: 100.0%;">(주)한진 부천택배센터</div>`)[0];
+            popup_a0cdf88f86b5409c8dac08add9f100dd.setContent(html_b921dce585a747a3af07022e940ed121);
+        
+
+        marker_712273ff49654a389db2bd2291363619.bindPopup(popup_a0cdf88f86b5409c8dac08add9f100dd)
+        ;
+
+        
+    
+    
+            var marker_475aed558db44502b9e47d2171a70c13 = L.marker(
+                [37.47529373, 126.88048429999999],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_65660dbce83b4b1bac44471e41dc98b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_475aed558db44502b9e47d2171a70c13.setIcon(icon_65660dbce83b4b1bac44471e41dc98b0);
+        
+    
+        var popup_c3389130fbad4a85a45bab1d9d772a86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_783bae4561e748589b5614b567f0baa2 = $(`<div id="html_783bae4561e748589b5614b567f0baa2" style="width: 100.0%; height: 100.0%;">(주)한진 서울남부지점</div>`)[0];
+            popup_c3389130fbad4a85a45bab1d9d772a86.setContent(html_783bae4561e748589b5614b567f0baa2);
+        
+
+        marker_475aed558db44502b9e47d2171a70c13.bindPopup(popup_c3389130fbad4a85a45bab1d9d772a86)
+        ;
+
+        
+    
+    
+            var marker_42ef76456da849e080ce415056fb3a13 = L.marker(
+                [37.54883121, 126.81618030000001],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_bbc64556d7674d39a0964c402a38b56f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_42ef76456da849e080ce415056fb3a13.setIcon(icon_bbc64556d7674d39a0964c402a38b56f);
+        
+    
+        var popup_bb467dd1c24a45829e44392dfb5d689d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_897f3ea3bc4346cc96f7a4cb3ddd4a43 = $(`<div id="html_897f3ea3bc4346cc96f7a4cb3ddd4a43" style="width: 100.0%; height: 100.0%;">(주)한진 강서택배센터</div>`)[0];
+            popup_bb467dd1c24a45829e44392dfb5d689d.setContent(html_897f3ea3bc4346cc96f7a4cb3ddd4a43);
+        
+
+        marker_42ef76456da849e080ce415056fb3a13.bindPopup(popup_bb467dd1c24a45829e44392dfb5d689d)
+        ;
+
+        
+    
+    
+            var marker_6c5214c94f2e49e88ba6bdd13130f7ae = L.marker(
+                [37.45854556, 127.0381148],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_9eee5f62b3524caa888ed2d75b7ed892 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c5214c94f2e49e88ba6bdd13130f7ae.setIcon(icon_9eee5f62b3524caa888ed2d75b7ed892);
+        
+    
+        var popup_80c6273ae8424e92b8d017b08bf67e4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb745fc8fb364156ab8ad9c10303a1ad = $(`<div id="html_cb745fc8fb364156ab8ad9c10303a1ad" style="width: 100.0%; height: 100.0%;">(주)케이씨티시 양재물류센터</div>`)[0];
+            popup_80c6273ae8424e92b8d017b08bf67e4f.setContent(html_cb745fc8fb364156ab8ad9c10303a1ad);
+        
+
+        marker_6c5214c94f2e49e88ba6bdd13130f7ae.bindPopup(popup_80c6273ae8424e92b8d017b08bf67e4f)
+        ;
+
+        
+    
+    
+            var marker_6a8eadb894e1410c84a0e61c99d4e610 = L.marker(
+                [37.62104902, 127.06593559999999],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_22be040a56044957882b72be54d2ad72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6a8eadb894e1410c84a0e61c99d4e610.setIcon(icon_22be040a56044957882b72be54d2ad72);
+        
+    
+        var popup_8a2a6ed67e404637a70c4579840cc70d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d686c0d50ac343e7b5ef95fd7112036f = $(`<div id="html_d686c0d50ac343e7b5ef95fd7112036f" style="width: 100.0%; height: 100.0%;">한솔로지스틱스(주) 성북센터</div>`)[0];
+            popup_8a2a6ed67e404637a70c4579840cc70d.setContent(html_d686c0d50ac343e7b5ef95fd7112036f);
+        
+
+        marker_6a8eadb894e1410c84a0e61c99d4e610.bindPopup(popup_8a2a6ed67e404637a70c4579840cc70d)
+        ;
+
+        
+    
+    
+            var marker_92bea22ae83044e79b2b00a766de3fc6 = L.marker(
+                [37.48532631, 126.8777003],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_f49d1fdc81884b0ab85671a1843e0c45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_92bea22ae83044e79b2b00a766de3fc6.setIcon(icon_f49d1fdc81884b0ab85671a1843e0c45);
+        
+    
+        var popup_a90a44cd1aaa46939b7f0a1b993cbf7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_657dcd334bec497c8ec194b1cca0d7db = $(`<div id="html_657dcd334bec497c8ec194b1cca0d7db" style="width: 100.0%; height: 100.0%;">씨제이대한통운(주) 택배서울지사</div>`)[0];
+            popup_a90a44cd1aaa46939b7f0a1b993cbf7d.setContent(html_657dcd334bec497c8ec194b1cca0d7db);
+        
+
+        marker_92bea22ae83044e79b2b00a766de3fc6.bindPopup(popup_a90a44cd1aaa46939b7f0a1b993cbf7d)
+        ;
+
+        
+    
+    
+            var marker_3571c4fe9e704588a0ddc3a2aa834295 = L.marker(
+                [37.4909763, 126.8347152],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_8e26b7adb0ce45b68bb50f4965fe9e08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3571c4fe9e704588a0ddc3a2aa834295.setIcon(icon_8e26b7adb0ce45b68bb50f4965fe9e08);
+        
+    
+        var popup_0ae0a5ae193b4b39bfde0abb2ba245c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0785d70af4e4a199e854366f71dc4a1 = $(`<div id="html_e0785d70af4e4a199e854366f71dc4a1" style="width: 100.0%; height: 100.0%;">(주)판토스 (구로물류)</div>`)[0];
+            popup_0ae0a5ae193b4b39bfde0abb2ba245c9.setContent(html_e0785d70af4e4a199e854366f71dc4a1);
+        
+
+        marker_3571c4fe9e704588a0ddc3a2aa834295.bindPopup(popup_0ae0a5ae193b4b39bfde0abb2ba245c9)
+        ;
+
+        
+    
+    
+            var marker_b03e86d6abf84270b0db28d9bfed48a3 = L.marker(
+                [37.55565256, 126.80664809999999],
+                {}
+            ).addTo(map_aff2a7f31211462689aa4d9ca314f7f1);
+        
+    
+            var icon_274afab123fb4c6b947c7ac3ffd9c5b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b03e86d6abf84270b0db28d9bfed48a3.setIcon(icon_274afab123fb4c6b947c7ac3ffd9c5b7);
+        
+    
+        var popup_ab43003269ef4341b4d64506e8d6baa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1769cb9f8ad40cdb12ebf89bde21dc8 = $(`<div id="html_e1769cb9f8ad40cdb12ebf89bde21dc8" style="width: 100.0%; height: 100.0%;">(주)발렉스</div>`)[0];
+            popup_ab43003269ef4341b4d64506e8d6baa8.setContent(html_e1769cb9f8ad40cdb12ebf89bde21dc8);
+        
+
+        marker_b03e86d6abf84270b0db28d9bfed48a3.bindPopup(popup_ab43003269ef4341b4d64506e8d6baa8)
+        ;
+
+        
+    
+</script>
