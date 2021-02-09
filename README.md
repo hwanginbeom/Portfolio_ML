@@ -408,3 +408,86 @@
 *보러가기: [****Music playlist recommendations****](https://github.com/hwanginbeom/Portfolio_ML/tree/master/Music%20playlist%20recommendations)*    
 
 <br>
+
+------
+
+## #6. Project - 어린이 교통사고 위험 지역 도출
+
+- Background
+
+국토 도시 데이터 분석과제로 오산시 어린이 교통사고 근절을 위해 두가지 과제를 해결하는 문제였습니다.
+1.어린이 보호구역 외 어린이 교통사고 위험 지역 20개 제시
+2.기존 어린이 보호구역 중 교통 안전시설물 우선 설치지역 20개소 제시
+
+
+
+
+<br>
+
+- Summary
+
+<br>
+
+
+  (1). 기간
+
+ - 2021.01.16 – 2021.01.28
+
+<br>
+
+
+
+  (2). Data
+
+  - 17개의 오산시 지역 데이터
+
+  - 교통 약자 다발지점 사고 지표
+
+
+
+<br>
+
+  (3). Data Preprocessing
+
+  - jupyter, colab
+
+  - python의 pandas, numpy라이브러리 통한 데이터 가공
+
+
+<br>
+
+
+
+  (4). Model & Algorithms
+
+  - 기본회귀알고리즘(Linear, DecisonTree, RF, LassoCV, LinearSVR, Kneighbors)
+
+  - 앙상블(XGB, GB, Stacking, Voting, Bagging)
+
+<br>
+
+
+
+  (5). Visualization
+
+ - python에서 제공하는 plotly 라이브러리 사용
+<br>
+
+
+
+  (6). Report
+
+ - 어린이 보호구역 외 어린이 교통사고 위험지역 20개소 제시
+
+ - 기존 어린이 보호구역 중 교통 안전 시설물 우선 설치지역 20개소 제시
+
+
+<br>
+
+<br>
+
+
+
+*보러가기: [****Children traffic accident risk****](https://github.com/hwanginbeom/Portfolio_ML/tree/master/Children%20traffic%20accident%20risk%20area)*    
+
+<br>
